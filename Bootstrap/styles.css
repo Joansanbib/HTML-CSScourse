@@ -1,0 +1,29 @@
+#header, #content, #products{
+    /* background-color: green !important; */
+    text-align: center;
+}
+#menu{
+    height: 100px;
+}
+#menu ul{
+    text-decoration: none;
+    list-style: none;
+    line-height: 100px;
+}
+.item{
+    height: 150px;
+}
+.items .row{
+    margin: 0px auto;
+    text-align: center;
+}
+footer{
+    height: 50px;
+    line-height: 50px;
+}
+.lateral{
+    height: 200px;
+}
+.lateral > div{
+    height: 50px;
+}

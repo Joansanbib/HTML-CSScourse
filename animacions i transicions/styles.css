@@ -1,0 +1,56 @@
+body{
+    margin: 50px;
+}
+h1{
+    margin: 50px;
+}
+#boton{
+    padding: 20px;
+    margin: 50px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    border: 4px solid rgb(11, 44, 11);
+    transition: all 1s;
+}
+#boton:hover{
+    border-radius: 10px;
+    background-color: red;
+    border:4px solid rgb(81, 23, 23);
+    
+}
+#caixa{
+   margin-top: 100px;
+   width: 250px;
+   height: 250px;
+   background-color: rgb(62, 62, 207); 
+   border: 4px solid rgb(30, 30, 100);
+   animation-name: desplaçament;
+   animation-duration: 3s;
+   animation-iteration-count: infinite;
+   animation-timing-function: linear;
+}
+
+/* @keyframes desplaçament {
+    from{
+        margin-left: 0px;
+    }
+    to{
+        margin-left: 400px;
+    }
+} */
+@keyframes desplaçament {
+    0%{
+        margin-left: 0px;
+        transform: rotate(0deg);
+    }
+    50%{
+        margin-left: 400px;
+        transform: rotate(360deg);
+    }
+    100%{
+        margin-left: 0px;
+        transform: rotate(0deg);
+    }
+    
+}

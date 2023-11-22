@@ -1,0 +1,184 @@
+@media (max-width:911px) {
+    #header .menu {
+        margin-right: 100px;
+    }
+
+    #banner {
+        font-size: 35px;
+    }
+}
+@media (max-width:1034px) {
+    .data-article{
+        height: 37px;
+        line-height: 120%;
+    }
+}
+@media (max-width:963px) {
+    #footer-menu {
+        margin-left: 50px;
+    }
+
+    #donde-estamos {
+        margin-left: 30px;
+    }
+
+    #credits-finals {
+        margin-left: 30px;
+    }
+
+    /* Queda be fins a 800px */
+    #aside {
+        margin-right: 20px;
+    }
+}
+
+@media (max-width:951px) {
+    #xarxesSocials {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 813px) {
+    .boto-blog{
+        margin-left: 70px;
+    }
+    .material-symbols-outlined{
+        margin-left: 200px;
+    }
+}
+@media (max-width:841px) {
+    #xarxesSocials{
+        font-size: 25px;
+    }
+}
+@media (max-width:833px){
+    .article{
+        height: 16%;
+    }
+    .card{
+        width: 30%;
+        height: 250px;  
+    }
+    .card:first-child{
+        margin-left: 18%;
+    }
+    #contingut-body{
+        height: 1200px;
+    }
+}
+@media (max-width:733px) {
+    #xarxesSocials{
+        font-size: 20px;
+    }
+}
+@media (max-width:725px) {
+    #donde-estamos{
+        margin-top: 0px;
+    }
+    #footer-menu{
+        margin-top: 0px;
+    }
+    #credits-finals{
+        margin-top: 0px;
+    }
+}
+@media (max-width: 700px) {
+    #header{
+        height: 135px;
+    }
+    #header .menu{
+        clear: both;
+        float: none;
+        margin: 0px auto;
+        width: 75%;
+    }
+    #header .menu ul li{
+        font-size: 30px;
+    }
+    .boto-blog{
+        /* float: none; */
+        margin: 38%;
+        margin-top: 2%;
+        margin-bottom: 0%;
+    }
+    .material-symbols-outlined{
+        visibility: hidden;
+    }
+}
+@media(max-width:657px){
+    #banner{
+        font-size: 30px;
+    }
+}
+@media (max-width:635px) {
+    #header .menu ul li{
+        font-size: 19px;
+    }
+    #header .menu{
+        margin-right: 18%;
+    }
+    #contingut-body{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .article{
+        font-size: 30px;
+    }
+    #aside{
+        float: left;
+        width: 50%;
+        margin-right: 0px;
+        margin-top: 5%;
+        margin-left: 25%;
+    }
+    #xarxesSocials{
+        font-size: 35px;
+    }
+    .appIcon{
+        display: block;
+        float: left;
+        margin-left: 13%; 
+        font-size: 25px;
+    }
+}
+@media (max-width:604px) {
+    .boto-blog{
+        margin-left: 35%;
+    }
+    #banner{
+        height: 150px;
+        text-align: justify;
+        line-height: 70px;
+    }
+    #donde-estamos h1, #credits-finals h1, #footer-menu h1{
+        font-size: 25px;
+    }
+}
+@media (max-width:491px) {
+    .boto-blog{
+        margin-left: 27%;
+    }
+    #header .menu ul li{
+        margin-right: 7%;
+    }
+    .card{
+        width: 40%;
+        height: 250px;  
+    }
+    .card:first-child{
+        margin-left: 10%;
+    }
+    .card:nth-child(3){
+        margin-left: 10%; 
+    }
+    .card:last-child{
+        margin-left: 30%;
+    }
+    #footer{
+        visibility: hidden;
+    }
+    /* Anem per 406px */
+    
+}
+
+
